@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5 {
 /* TITLESCREEN */
 
 body.titlescreen {
-  background-image: url('images/brand/title screen.png');
+  background-image: url('images/brand/titlescreen.png');
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -230,6 +230,15 @@ a:hover {
 }
 
 
+ul.linebreaks,
+ul.linebreaks li {
+  display: block;
+}
+ul.inline li {
+  display: inline-block;
+  padding: 1px 5px;
+}
+
 ul.comas {
   display: inline;
   list-style: none; 
@@ -242,10 +251,7 @@ ul.comas li {
   margin: 0;
   padding: 0; 
 }
-ul.linebreaks,
-ul.linebreaks li {
-  display: block;
-}
+
 ul.comas li::after {
   content:", ";
 }
