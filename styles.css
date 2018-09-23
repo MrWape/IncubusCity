@@ -199,7 +199,6 @@ SIGN,sign,NOTE,note {
   display: block;
   line-height: 1.3em;
 }
-
 hr {
   width: 50%; 
   margin: 12px auto; 
@@ -271,6 +270,10 @@ ul.raquo > li:before {
 
 ul.twocol {
   display: inline-block;
+}
+ul.twocol, ul.twocol > li {
+ padding: 0;
+ margin: 0;
 }
 ul.twocol li {
   width: 50%; 
@@ -344,13 +347,13 @@ img[align="left"] {
 /* SPECIAL ELEMENTS */
 
 .note {
-  background: rgba(0,0,0,0.5);
-  padding: 1em;
-  position: fixed;
-  bottom: 1em;
-  left: 0;
-  z-index: 9999;
-  width: 60%;
+    background: rgba(0,0,0,0.5);
+    padding: 0.5em 2em;
+    position: fixed;
+    bottom: 1em;
+    left: 0;
+    z-index: 9999;
+    width: 65%;
 }
 .note h3 {
   margin: 0 0 .5em 0; 
@@ -588,63 +591,15 @@ NOMURDER {
 } */
 
 
-/* BACKGROUND IMAGES */
-
-body.alley { background-image: url('images/bg/alley.jpg'); }
-body.apartment { background-image: url('images/bg/apartment.jpg'); }
-body.bar { background-image: url('images/bg/bar.jpg'); }
-body.beach { background-image: url('images/bg/beach.jpg'); }
-body.bikerbar { background-image: url('images/bg/bikerbar.jpg'); }
-body.cinema { background-image: url('images/bg/cinema.jpg'); }
-body.city { background-image: url('images/bg/city.jpg'); }
-body.citymap { background-image: url('images/bg/citymap.jpg'); }
-body.condo { background-image: url('images/bg/condo.jpg'); }
-body.condo-building { background-image: url('images/bg/condo-building.jpg'); }
-body.den { background-image: url('images/bg/den.jpg'); }
-body.dormroom { background-image: url('images/bg/dormroom.jpg'); }
-body.frathouse { background-image: url('images/bg/frathouse.jpg'); }
-body.fratroom { background-image: url('images/bg/fratroom.jpg'); }
-body.girlroom { background-image: url('images/bg/girlroom.jpg'); }
-body.highway { background-image: url('images/bg/highway.jpg'); }
-body.home { background-image: url('images/bg/home.jpg'); }
-body.hospital { background-image: url('images/bg/hospital.jpg'); }
-body.hospital-room { background-image: url('images/bg/hospital-room.jpg'); }
-body.hospital-interior { background-image: url('images/bg/hospital-interior.jpg'); }
-body.hotel { background-image: url('images/bg/vision.jpg'); }
-body.market { background-image: url('images/bg/market.jpg'); }
-body.neighbourhood { background-image: url('images/bg/neighbourhood.jpg'); }
-body.park { background-image: url('images/bg/park.jpg'); }
-body.phone { background-image: url('images/bg/phone.jpg'); }
-body.nicehouse { background-image: url('images/bg/nicehouse.jpg'); }
-body.nicehouse-interior { background-image: url('images/bg/nicehouse interior.jpg'); }
-body.sidestreet { background-image: url('images/bg/sidestreet.jpg'); }
-body.vision { background-image: url('images/bg/vision.jpg'); }
-body.washroom { background-image: url('images/bg/washroom.jpg'); }
-
-body.motel { background-image: url('images/bg/motel.jpg'); }
-
-body.suburb { background-image: url('images/bg/suburb.jpg'); }
-body.suburb-day { background-image: url('images/bg/suburb-day.jpg'); }
-
-body.dungeon { background-image: url('images/bg/dungeon2.jpg'); }
-body.dungeon0 { background-image: url('images/bg/dungeon0.jpg'); }
-body.dungeon1 { background-image: url('images/bg/dungeon1.jpg'); }
-body.dungeon2 { background-image: url('images/bg/dungeon2.jpg'); }
-body.dungeon3 { background-image: url('images/bg/dungeon3.jpg'); }
-body.dungeon4 { background-image: url('images/bg/dungeon4.jpg'); }
-body.dungeon5 { background-image: url('images/bg/dungeon5.jpg'); }
-body.dungeon6 { background-image: url('images/bg/dungeon6.jpg'); }
-body.dungeon7 { background-image: url('images/bg/dungeon7.jpg'); }
-body.dungeon8 { background-image: url('images/bg/dungeon8.jpg'); }
-body.dungeon9 { background-image: url('images/bg/dungeon9.jpg'); }
-body.dungeon10 { background-image: url('images/bg/dungeon10.jpg'); }
 
 
 
 
-body.brothel { background-image: url('images/bg/brothel.jpg'); }
-body.brothel-exterior { background-image: url('images/bg/brothel-exterior.jpg'); }
-body.brothel-lobby { background-image: url('images/bg/brothel-lobby.jpg'); }
-body.brothel-fuck { background-image: url('images/bg/brothel-fuck.jpg'); }
+
+
+
+
+
+
 
 
