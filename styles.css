@@ -4,6 +4,12 @@
 
 
 
+* {
+	border: 10px solid red;
+}
+
+
+
 body {
   background-image: url('images/bg/bg.jpg');
   background-size: cover;
@@ -279,6 +285,7 @@ ul.twocol li:last-child {
   _width: 100%; 
   _clear: both; 
 }
+
 
 ul.noindent, ul.noindent > li {
  padding: 0;
