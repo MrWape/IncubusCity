@@ -1,0 +1,650 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:900');
+
+
+
+body {
+  background-image: url('images/bg/bg.jpg');
+  background-size: cover;
+  background-color: #151515;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
+  text-shadow: #000 0px 0px 0px, #000 1px 1px 0px, #000 2px 2px 0px, #000 0px 0px 4px;
+}
+
+
+/* CAPITAL FONT */
+
+thick, .thick,
+#menu,
+div.button > a,
+button,
+a.button,
+.endingTable td,
+h1,h2,h3,h4,h5 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/* ENDING TABLE */
+
+.endingTable {
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+.endingTable td {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #333;
+  background-image: url('images/misc/ending_icon_on.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+  Zfont-weight: bold;
+  cursor: default;
+}
+.endingTable td.no {
+  background-image: url('images/misc/ending_icon_off.png');
+  color: #555;
+}
+.endingTable td div {
+  border: 1px solid rgba(30,30,30,1);
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  
+  transition: all 0.1s;
+  opacity: 0.0;
+  top: 30px;
+  left: 50%;
+  font-size: 1%;
+  width: 1px;
+  padding: 0px 0px;
+  z-index:0;
+}
+.endingTable td:hover div {
+  opacity: 1.0;
+  top: 50px;
+  left: -50%;
+  font-size: 95%;
+  width: 10em;
+  padding: 7px 2px;
+  z-index: 9999;
+}
+.endingTable td div span {
+  font-weight: bold;
+  display: block;
+}
+
+
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 1px 1px 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  transition: 0.2s all;
+  box-shadow: inset 1px 1px 1px rgba(255, 55, 55, 1), inset -1px -1px 5px rgba(0, 0, 0, 1);
+  background: #5f0516; 
+  border: 1px solid #5f0516;
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 1), inset -1px -1px 5px rgba(0, 0, 0, 1);
+  background: crimson; 
+  border: 1px solid crimson;
+}
+
+
+
+/* POPUP */
+.popholder {
+  display: inline-block;
+  position: relative;
+  cursor: default;
+}
+.ZZZpopholder .pop:hover,
+.popholder .pop {
+  border: 1px solid rgba(30,30,30,1);
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  
+  transition: all 0.1s;
+  opacity: 0.0;
+  top: 20px;
+  left: 10%;
+  font-size: 1%;
+  width: 1px;
+  padding: 0px 0px;
+  z-index:0;
+}
+.popholder:hover .pop {
+  opacity: 1.0;
+  top: 30px;
+  left: 15%;
+  font-size: 95%;
+  width: 10em;
+  padding: 7px 2px;
+  z-index: 9999;
+}
+
+
+/* PASSAGES */
+
+#passages {
+}
+#passages::after {
+  content: "";
+  background-image: url('images/bg/tile.png');
+  background-color: rgba(0,0,0,0.5);
+  opacity: 1.0;
+  transition: opacity 0.5s;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+  _border: 5px solid red;
+}
+
+#passages p:empty {
+  display: none;
+}
+
+
+
+/* TITLESCREEN */
+
+body.titlescreen {
+  background-image: url('images/brand/title screen.png');
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+body.titlescreen #passages::after {
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.0;
+}
+body.titlescreen #ui-bar {
+  opacity: 0.0;
+}
+
+
+
+
+
+/* MISC */
+
+SIGN,sign,NOTE,note {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  padding: 0 20%; 
+  display: block;
+  line-height: 1.3em;
+}
+
+hr {
+  width: 50%; 
+  margin: 12px auto; 
+}
+.passage hr {
+  margin: 26px auto; 
+}
+hr.time {
+  width: 100%; 
+  margin: 0; 
+  height: 0;
+}
+hr.time::after {
+  content:"* * *";
+  text-align: center;
+  margin: 22px auto; 
+}
+
+
+h1, h2, h3, h4, h5 {
+  
+}
+
+a {
+  color: crimson;
+}
+a:hover {
+  color: lightpink;
+  text-decoration: none !important; 
+}
+
+
+ul.comas {
+  display: inline;
+  list-style: none; 
+  margin: 0;
+  padding: 0; 
+  
+}
+ul.comas li {
+  display: inline;
+  margin: 0;
+  padding: 0; 
+}
+ul.linebreaks,
+ul.linebreaks li {
+  display: block;
+}
+ul.comas li::after {
+  content:", ";
+}
+ul.comas li:last-child::after {
+  content:".";
+}
+
+
+ul.raquo {
+  padding: 0;
+  margin: 10px 0;
+}
+ul.raquo > li {
+  list-style: none; 
+  box-sizing: border-box;
+  padding-left: 10px; 
+}
+ul.raquo > li:before {
+  content: "» ";
+}
+
+ul.twocol {
+  display: inline-block;
+}
+ul.twocol li {
+  width: 50%; 
+  float: left; 
+}
+ul.twocol li:last-child {
+  _width: 100%; 
+  _clear: both; 
+}
+
+
+
+
+
+
+small {
+  size: 40%; 
+}
+big {
+  size: 140%; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+img {
+  min-width: 20px;
+  min-height: 20px;
+  _display: block;
+  height: auto; 
+  position: relative;
+}
+img:after { 
+  content: "(url: " attr(src) attr(alt) attr(class) ")";
+  display: block;
+  border: 1px dotted crimson; 
+  font-size: .7em;
+}
+
+img.dim {
+  max-width: 100%;
+  height: auto; 
+  opacity: 0.5;
+  min-width: 50px; 
+  min-height: 50px; 
+  border: 3px solid black;
+  background: #333; 
+  transition: opacity 0.5s;
+}
+img:hover {
+  opacity: 1.0
+}
+.passage img {
+  max-width: 100%; 
+}
+
+img[align="right"] {
+  margin-left: 0.5em;
+}
+img[align="left"] {
+  margin-right: 0.5em;
+}
+img[align="right"],
+img[align="left"] {
+  max-width: 65%; 
+  margin-bottom: 0.5em;
+}
+
+
+
+/* SPECIAL ELEMENTS */
+
+.note {
+  background: rgba(0,0,0,0.5);
+  padding: 1em;
+  position: fixed;
+  bottom: 1em;
+  left: 0;
+  z-index: 9999;
+  width: 60%;
+}
+.note h3 {
+  margin: 0 0 .5em 0; 
+}
+
+
+
+
+
+
+
+
+/* SIDEBAR */
+
+#ui-bar {
+  background-color: rgba(0,0,0,0.0);
+  border-right: none;
+  text-align: center;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+#ui-bar-body {
+  height: 90%;
+  height: calc(100% - 0.5em);
+  margin: 0.5em 0;
+}
+#ui-bar img {
+  max-width: 100%;
+  height: auto; 
+  _opacity: 0.9;
+  border: none;
+  clear: both;
+  background: none;
+}
+#story-caption {
+   margin-top: 0em; 
+}
+
+#story-title {
+  display: none;
+}
+
+#ui-bar-history {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* removes initiating comma in lists */
+
+.list::first-letter { 
+  font-size: 1%;
+  color: #000;
+}
+
+
+
+
+
+.debug, #debug {
+  color: #666 !important; 
+  font-family: monospace !important;
+}
+
+.statusbar {
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  border: 1px solid white;
+  
+}
+
+.openable {
+  height: 1.5em;
+  transition: height 0.2s;
+  overflow: hidden;
+}
+.openable:hover {
+  height: 120px;
+}
+.openable.taller {
+  height: 70px;
+}
+.openable.taller:hover {
+  height: 160px;
+}
+
+
+
+/* DAYTIME */
+/* 
+body.day {
+  background-color: #eee;
+  text-shadow: rgba(255,255,255,0.9) 1px 2px 0px;
+  color: #000;
+}
+
+body.day #passages::after {
+  background-image: url('images/bg/tile-day.png');
+  background-color: rgba(255,255,255,0.1);
+}
+ */
+
+
+
+/* BUTTONS */
+
+div.button > a,
+button,
+a.button {
+  color: #fff;
+  background-color: crimson;
+  padding: 0.5em 0.9em; 
+  margin: 0.5em; 
+  text-shadow: none; 
+  border: 0;
+}
+div.button > a:hover,
+button:hover,
+a.button:hover {
+  color: crimson;
+  background-color: lightpink;
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SPAN CLASSES */
+
+POV,pov,.pov   { 
+  color: LightSlateGray; 
+}
+HYPNO,hypno,.hypno   { 
+  color: LightSlateGray; 
+  font-shadow: 1px 2px 0 #d43ed3; 
+  font-style: italic; 
+}
+BRUTAL,brutal,.brutal   { 
+  color: LightSlateGray; 
+  font-shadow: 1px 2px 0 #b8000c; 
+  font-style: italic; 
+}
+POWER,power,.power  { 
+  font-style: italic; 
+  font-shadow: 1px 2px 0 #d8be0e; 
+  font-style: italic; 
+}
+
+
+
+PIMP,pimp,.pimp   { color: #92d450 }
+
+
+qGIRL,GIRL,girl,.girl { color: HotPink }
+
+qGIRL0,GIRL0,.girl0  { color: Salmon  }
+qGIRL1,GIRL1,.girl1  { color: HotPink }
+qGIRL2,GIRL2,.girl2  { color: Orchid }
+qGIRL3,GIRL3,.girl3  { color: DeepSkyBlue }
+qGIRL4,GIRL4,.girl4  { color: DarkCyan  }
+qGIRL5,GIRL5,.girl5  { color: Peach }
+qGIRL6,GIRL6,.girl6  { color: BlueViolet }
+
+MAN,man,.man   { color: #ffff77 }
+
+GUY,.guy,
+qGUY1,GUY1,.guy1   { color: Olive }
+qGUY2,GUY2,.guy2   { color: Orange }
+qGUY3,GUY3,.guy3   { color: LightSeaGreen }
+qGUY4,GUY4,.guy4   { color: #ff4466 }
+qGUY5,GUY5,.guy5   { color: Silver }
+
+BOY,.boy  { color: #77ffff }
+
+
+boy::before, POV::before, pov::before, .pov::before, PIMP::before, pimp::before, .pimp::before, MAN::before, man::before, .man::before, GUY::before, .guy::before, GUY1::before, .guy1::before, GUY2::before, .guy2::before, GUY3::before, .guy3::before, GUY4::before, .guy4::before, GUY5::before, .guy5::before, GIRL::before, girl::before, .girl::before, GIRL1::before, .girl1::before, GIRL2::before, .girl2::before, GIRL3::before, .girl3::before, GIRL4::before, .girl4::before, GIRL5::before, .girl5::before, GIRL6::before, .girl6::before, GIRL0::before, .girl0::before {
+  content: '"';
+}
+
+boy::after, POV::after, pov::after, .pov::after, PIMP::after, pimp::after, .pimp::after, MAN::after, man::after, .man::after, GUY::after, .guy::after, GUY1::after, .guy1::after, GUY2::after, .guy2::after, GUY3::after, .guy3::after, GUY4::after, .guy4::after, GUY5::after, .guy5::after, GIRL::after, girl::after, .girl::after, GIRL1::after, .girl1::after, GIRL2::after, .girl2::after, GIRL3::after, .girl3::after, GIRL4::after, .girl4::after, GIRL5::after, .girl5::after, GIRL6::after, .girl6::after, GIRL0::after, .girl0::after {
+  content: '"';
+}
+
+
+
+.love  { color: Violet; font-style: italic }
+.hate  { color: FireBrick; font-style: italic }
+.neutral { color: DarkSlateGray; }
+
+
+
+
+
+/* CENSORSHIP TOGGLES */
+
+/* normal */
+
+NOMURDER {
+  display: none;
+}
+
+/* censored
+
+MURDER,murder,.murder,
+MURDER *,murder *,.murder * {
+   pointer-events: none !important;
+   cursor: default !important;
+  color: #555 !important;
+   text-decoration: line-through;
+}
+NOMURDER {
+  display: inline;
+  background-color: crimson;
+} */
+
+
+/* BACKGROUND IMAGES */
+
+body.alley { background-image: url('images/bg/alley.jpg'); }
+body.apartment { background-image: url('images/bg/apartment.jpg'); }
+body.bar { background-image: url('images/bg/bar.jpg'); }
+body.beach { background-image: url('images/bg/beach.jpg'); }
+body.bikerbar { background-image: url('images/bg/bikerbar.jpg'); }
+body.cinema { background-image: url('images/bg/cinema.jpg'); }
+body.city { background-image: url('images/bg/city.jpg'); }
+body.citymap { background-image: url('images/bg/citymap.jpg'); }
+body.condo { background-image: url('images/bg/condo.jpg'); }
+body.condo-building { background-image: url('images/bg/condo-building.jpg'); }
+body.den { background-image: url('images/bg/den.jpg'); }
+body.dormroom { background-image: url('images/bg/dormroom.jpg'); }
+body.frathouse { background-image: url('images/bg/frathouse.jpg'); }
+body.fratroom { background-image: url('images/bg/fratroom.jpg'); }
+body.girlroom { background-image: url('images/bg/girlroom.jpg'); }
+body.highway { background-image: url('images/bg/highway.jpg'); }
+body.home { background-image: url('images/bg/home.jpg'); }
+body.hospital { background-image: url('images/bg/hospital.jpg'); }
+body.hospital-room { background-image: url('images/bg/hospital-room.jpg'); }
+body.hospital-interior { background-image: url('images/bg/hospital-interior.jpg'); }
+body.hotel { background-image: url('images/bg/vision.jpg'); }
+body.market { background-image: url('images/bg/market.jpg'); }
+body.neighbourhood { background-image: url('images/bg/neighbourhood.jpg'); }
+body.park { background-image: url('images/bg/park.jpg'); }
+body.phone { background-image: url('images/bg/phone.jpg'); }
+body.nicehouse { background-image: url('images/bg/nicehouse.jpg'); }
+body.nicehouse-interior { background-image: url('images/bg/nicehouse interior.jpg'); }
+body.sidestreet { background-image: url('images/bg/sidestreet.jpg'); }
+body.vision { background-image: url('images/bg/vision.jpg'); }
+body.washroom { background-image: url('images/bg/washroom.jpg'); }
+
+body.motel { background-image: url('images/bg/motel.jpg'); }
+
+body.suburb { background-image: url('images/bg/suburb.jpg'); }
+body.suburb-day { background-image: url('images/bg/suburb-day.jpg'); }
+
+body.dungeon { background-image: url('images/bg/dungeon2.jpg'); }
+body.dungeon0 { background-image: url('images/bg/dungeon0.jpg'); }
+body.dungeon1 { background-image: url('images/bg/dungeon1.jpg'); }
+body.dungeon2 { background-image: url('images/bg/dungeon2.jpg'); }
+body.dungeon3 { background-image: url('images/bg/dungeon3.jpg'); }
+body.dungeon4 { background-image: url('images/bg/dungeon4.jpg'); }
+body.dungeon5 { background-image: url('images/bg/dungeon5.jpg'); }
+body.dungeon6 { background-image: url('images/bg/dungeon6.jpg'); }
+body.dungeon7 { background-image: url('images/bg/dungeon7.jpg'); }
+body.dungeon8 { background-image: url('images/bg/dungeon8.jpg'); }
+body.dungeon9 { background-image: url('images/bg/dungeon9.jpg'); }
+body.dungeon10 { background-image: url('images/bg/dungeon10.jpg'); }
+
+
+
+
+body.brothel { background-image: url('images/bg/brothel.jpg'); }
+body.brothel-exterior { background-image: url('images/bg/brothel-exterior.jpg'); }
+body.brothel-lobby { background-image: url('images/bg/brothel-lobby.jpg'); }
+body.brothel-fuck { background-image: url('images/bg/brothel-fuck.jpg'); }
+
+
