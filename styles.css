@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:900');
 
 
-
-* {
-	border: 10px solid red;
-}
-
-
-
 body {
   background-image: url('images/bg/bg.jpg');
   background-size: cover;
@@ -49,7 +42,7 @@ h1,h2,h3,h4,h5 {
   width: 21px;
   height: 21px;
   border: 1px solid #333;
-  background-image: url('images/misc/ending_icon_on.png');
+  background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_on.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: relative;
@@ -57,7 +50,7 @@ h1,h2,h3,h4,h5 {
   cursor: default;
 }
 .endingTable td.no {
-  background-image: url('images/misc/ending_icon_off.png');
+  background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_off.png');
   color: #555;
 }
 .endingTable td div {
