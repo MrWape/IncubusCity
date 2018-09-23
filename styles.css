@@ -271,10 +271,6 @@ ul.raquo > li:before {
 ul.twocol {
   display: inline-block;
 }
-ul.twocol, ul.twocol > li {
- padding: 0;
- margin: 0;
-}
 ul.twocol li {
   width: 50%; 
   float: left; 
@@ -282,6 +278,11 @@ ul.twocol li {
 ul.twocol li:last-child {
   _width: 100%; 
   _clear: both; 
+}
+
+ul.noindent, ul.noindent > li {
+ padding: 0;
+ margin: 0;
 }
 
 
