@@ -189,6 +189,7 @@ body.titlescreen #ui-bar {
 
 
 
+
 /* MISC */
 
 SIGN,sign,NOTE,note {
@@ -203,7 +204,7 @@ hr {
   margin: 12px auto; 
 }
 .passage hr {
-  margin: 26px auto; 
+  margin: 20px auto; 
 }
 hr.time {
   width: 100%; 
@@ -428,7 +429,7 @@ img[align="left"] {
 
 
 
-.debug, #debug {
+.debug, #debug, debug {
   color: #666 !important; 
   font-family: monospace !important;
 }
