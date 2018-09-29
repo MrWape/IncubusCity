@@ -512,6 +512,24 @@ a.button:hover {
 
 /* SPAN CLASSES */
 
+GOD,god,.god   { 
+    font-family: serif;
+    _font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    color: #fc1;
+    text-shadow: -1px 0px 0px #500, -2px -1px 0 #fc9;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+GOD::before {
+  content: '« ';
+}
+GOD::after {
+  content: ' »';
+}
+
 POV,pov,.pov   { 
   color: LightSlateGray; 
 }
