@@ -24,7 +24,7 @@ div.button > a,
 button,
 a.button,
 .endingTable td,
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5 {
 .endingTable td:hover div {
   opacity: 1.0;
   top: 50px;
-  left: -50%;
+  left: -120%;
   font-size: 95%;
   width: 10em;
   padding: 7px 2px;
@@ -446,17 +446,17 @@ img[align="left"] {
 
 .openable {
   height: 1.5em;
-  transition: height 0.2s;
+  transition: height 0.4s;
   overflow: hidden;
 }
 .openable:hover {
-  height: 120px;
+  height: 250px;
 }
 .openable.taller {
   height: 70px;
 }
 .openable.taller:hover {
-  height: 160px;
+  height: 350px;
 }
 
 
