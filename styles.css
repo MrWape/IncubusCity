@@ -23,7 +23,7 @@ thick, .thick,
 div.button > a,
 button,
 a.button,
-.endingTable td,
+.endTable td,
 h1, h2, h3, h4, h5 {
   font-family: 'Work Sans', sans-serif;
 }
@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5 {
 
 /* ENDING TABLE */
 
-.endingTable {
+.endTable {
   font-size: 12px;
   margin: 0 auto;
   text-align: center;
 }
-.endingTable td {
+.endTable td {
   width: 21px;
   height: 21px;
   border: 1px solid #333;
@@ -49,11 +49,11 @@ h1, h2, h3, h4, h5 {
   Zfont-weight: bold;
   cursor: default;
 }
-.endingTable td.no {
+.endTable td.no {
   background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_off.png');
   color: #555;
 }
-.endingTable td div {
+.endTable td div {
   border: 1px solid rgba(30,30,30,1);
   background: rgba(0,0,0,0.8);
   position: absolute;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
   padding: 0px 0px;
   z-index:0;
 }
-.endingTable td:hover div {
+.endTable td:hover div {
   opacity: 1.0;
   top: 50px;
   left: -120%;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
   padding: 7px 2px;
   z-index: 9999;
 }
-.endingTable td div span {
+.endTable td div span {
   font-weight: bold;
   display: block;
 }
@@ -274,18 +274,21 @@ ul.raquo > li:before {
   content: "» ";
 }
 
-ul.twocol {
+ul.twocol,
+ul.threecol {
   display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 ul.twocol li {
   width: 50%; 
   float: left; 
 }
-ul.twocol li:last-child {
-  _width: 100%; 
-  _clear: both; 
+ul.threecol li {
+  width: 33%; 
+  float: left; 
 }
-
 
 ul.noindent, ul.noindent > li {
  padding: 0;
@@ -334,9 +337,6 @@ img.dim {
 img:hover {
   opacity: 1.0
 }
-.passage img {
-  max-width: 100%; 
-}
 
 img[align="right"] {
   margin-left: 0.5em;
@@ -350,6 +350,13 @@ img[align="left"] {
   margin-bottom: 0.5em;
 }
 
+.passage img {
+  max-width: 100%; 
+}
+.passage img[align="right"],
+.passage img[align="left"] {
+  max-width: 50%;
+}
 
 
 /* SPECIAL ELEMENTS */
@@ -429,10 +436,7 @@ img[align="left"] {
 
 
 
-.debug, #debug, debug {
-  color: #666 !important; 
-  font-family: monospace !important;
-}
+
 
 .statusbar {
   position: absolute;
