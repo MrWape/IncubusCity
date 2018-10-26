@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5 {
 
 
 /* POPUP */
+
 .popholder {
   display: inline-block;
   position: relative;
@@ -345,15 +346,15 @@ img:hover {
 }
 
 img[align="right"] {
-  margin-left: 0.5em;
+  margin-left: 1.5em;
 }
 img[align="left"] {
-  margin-right: 0.5em;
+  margin-right: 1.5em;
 }
 img[align="right"],
 img[align="left"] {
   max-width: 65%; 
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .passage img {
