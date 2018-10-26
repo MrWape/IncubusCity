@@ -19,7 +19,7 @@ body {
 /* CAPITAL FONT */
 
 thick, .thick,
-#menu,
+#menu, 
 div.button > a,
 button,
 a.button,
@@ -208,12 +208,13 @@ hr {
 }
 hr.time {
   width: 100%; 
-  margin: 0; 
+  margin: 0 auto; 
+  text-align: center;
   height: 0;
+  border: 0; 
 }
 hr.time::after {
   content:"* * *";
-  text-align: center;
   margin: 22px auto; 
 }
 
@@ -228,6 +229,10 @@ a {
 a:hover {
   color: lightpink;
   text-decoration: none !important; 
+}
+.nolink a, 
+nolink a {
+	display: none;
 }
 
 
