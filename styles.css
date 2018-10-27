@@ -545,8 +545,8 @@ GOD::after {
 
 QUEEN,queen,.queen   { 
     font-family: serif;
-    font-size: 1.2em;
-    color: #f1c;
+    font-size: 1.3em;
+    color: #fdf;
     text-decoration: none;
     line-height: 1.2em;
 }
