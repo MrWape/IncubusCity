@@ -206,7 +206,7 @@ hr {
 }
 .passage hr {
   margin: 20px auto; 
-  border-top: 1px solid crimson;
+  border-top: 1px solid #333;
 }
 hr.time {
   width: 100%; 
@@ -534,11 +534,21 @@ GOD,god,.god   {
     line-height: 1.3em;
     letter-spacing: 1px;
 }
+
 GOD::before {
   content: '« ';
 }
 GOD::after {
   content: ' »';
+}
+
+
+QUEEN,queen,.queen   { 
+    font-family: serif;
+    font-size: 1.2em;
+    color: #f1c;
+    text-decoration: none;
+    line-height: 1.2em;
 }
 
 POV,pov,.pov   { 
@@ -587,10 +597,12 @@ qGUY5,GUY5,.guy5   { color: Silver }
 BOY,.boy  { color: #77ffff }
 
 
+QUEEN::before,
 boy::before, POV::before, pov::before, .pov::before, PIMP::before, pimp::before, .pimp::before, MAN::before, man::before, .man::before, GUY::before, .guy::before, GUY1::before, .guy1::before, GUY2::before, .guy2::before, GUY3::before, .guy3::before, GUY4::before, .guy4::before, GUY5::before, .guy5::before, GIRL::before, girl::before, .girl::before, GIRL1::before, .girl1::before, GIRL2::before, .girl2::before, GIRL3::before, .girl3::before, GIRL4::before, .girl4::before, GIRL5::before, .girl5::before, GIRL6::before, .girl6::before, GIRL0::before, .girl0::before {
   content: '"';
 }
 
+QUEEN::after,
 boy::after, POV::after, pov::after, .pov::after, PIMP::after, pimp::after, .pimp::after, MAN::after, man::after, .man::after, GUY::after, .guy::after, GUY1::after, .guy1::after, GUY2::after, .guy2::after, GUY3::after, .guy3::after, GUY4::after, .guy4::after, GUY5::after, .guy5::after, GIRL::after, girl::after, .girl::after, GIRL1::after, .girl1::after, GIRL2::after, .girl2::after, GIRL3::after, .girl3::after, GIRL4::after, .girl4::after, GIRL5::after, .girl5::after, GIRL6::after, .girl6::after, GIRL0::after, .girl0::after {
   content: '"';
 }
