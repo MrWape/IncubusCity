@@ -235,7 +235,7 @@ a:hover {
 
 .nolink a, 
 nolink a,
-.raquo {
+nolink .raquo {
 	display: none;
 }
 
