@@ -232,10 +232,16 @@ a:hover {
   color: lightpink;
   text-decoration: none !important; 
 }
+
 .nolink a, 
-nolink a {
+nolink a,
+.raquo {
 	display: none;
 }
+
+
+
+
 
 
 ul.linebreaks,
@@ -612,6 +618,14 @@ boy::after, POV::after, pov::after, .pov::after, PIMP::after, pimp::after, .pimp
 .love  { color: Violet; font-style: italic }
 .hate  { color: FireBrick; font-style: italic }
 .neutral { color: DarkSlateGray; }
+
+
+
+
+.gold,
+.gold * {
+	color: gold; 
+}
 
 
 
