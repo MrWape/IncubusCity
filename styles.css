@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 .endTable td {
-  width: 21px;
-  height: 21px;
-  border: 1px solid #333;
+  width: 19px;
+  height: 19px;
+  border: none; /* 1px solid #333; */
   background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_on.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -533,6 +533,12 @@ a.button:hover {
 
 
 
+div.button.small > a,
+button.small,
+a.button.small {
+  padding: 0.1em 0.2em; 
+  margin: 0.1em; 
+}
 
 
 
