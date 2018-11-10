@@ -16,6 +16,15 @@ body {
 }
 
 
+::selection {
+    color: black !important;
+    background: white !important;
+	text-shadow: none !important; 
+}
+
+
+
+
 /* CAPITAL FONT */
 
 thick, .thick,
@@ -38,7 +47,6 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
   text-align: center;
 }
-empty .endTable td,
 .endTable td {
   width: 21px;
   height: 21px;
@@ -50,11 +58,14 @@ empty .endTable td,
   Zfont-weight: bold;
   cursor: default;
 }
-empty .endTable td:hover,
 .endTable td.no {
   background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_off.png');
   color: #555;
 }
+.empty .endTable td:hover {
+  background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_off.png') !important;
+}
+
 .endTable td div {
   border: 1px solid rgba(30,30,30,1);
   background: rgba(0,0,0,0.8);
@@ -79,7 +90,7 @@ empty .endTable td:hover,
   z-index: 9999;
 }
 .endTable td div span {
-  font-weight: bold;
+  font-weight: lighter !important;
   display: block;
 }
 
@@ -323,7 +334,7 @@ big {
   font-family: 'Open Sans', sans-serif;
 }
 .faded {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 
@@ -558,7 +569,7 @@ GOD::after {
 QUEEN,queen,.queen   { 
     font-family: serif;
     font-size: 1.3em;
-    color: #fdf;
+    color: #afa;
     text-decoration: none;
     line-height: 1.2em;
 }
