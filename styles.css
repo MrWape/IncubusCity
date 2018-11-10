@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
   text-align: center;
 }
+empty .endTable td,
 .endTable td {
   width: 21px;
   height: 21px;
@@ -49,6 +50,7 @@ h1, h2, h3, h4, h5 {
   Zfont-weight: bold;
   cursor: default;
 }
+empty .endTable td:hover,
 .endTable td.no {
   background-image: url('https://github.com/MrWape/IncubusCity/raw/master/images/misc/ending_icon_off.png');
   color: #555;
@@ -320,6 +322,10 @@ big {
   size: 140%; 
   font-family: 'Open Sans', sans-serif;
 }
+.faded {
+  opacity: 0.9;
+}
+
 
 
 
@@ -589,7 +595,7 @@ qGIRL2,GIRL2,.girl2  { color: Orchid }
 qGIRL3,GIRL3,.girl3  { color: DeepSkyBlue }
 qGIRL4,GIRL4,.girl4  { color: DarkCyan  }
 qGIRL5,GIRL5,.girl5  { color: Peach }
-qGIRL6,GIRL6,.girl6  { color: BlueViolet }
+qGIRL6,GIRL6,.girl6  { color: MediumSlateBlue  }
 
 MAN,man,.man   { color: #ffff77 }
 
