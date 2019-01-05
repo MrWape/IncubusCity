@@ -513,7 +513,7 @@ body.day #passages::after {
 
 /* BUTTONS */
 
-div.button > a,
+*.button > a,
 button,
 a.button {
   color: #fff;
@@ -523,7 +523,7 @@ a.button {
   text-shadow: none; 
   border: 0;
 }
-div.button > a:hover,
+*.button > a:hover,
 button:hover,
 a.button:hover {
   color: crimson;
@@ -532,13 +532,15 @@ a.button:hover {
 }
 
 
-
-div.button.small > a,
+*.button.small > a,
 button.small,
 a.button.small {
-  padding: 0.1em 0.2em; 
+  padding: 0.1em 0.5em; 
   margin: 0.1em; 
+  text-transform: uppercase; 
+  font-size: .6em;
 }
+
 
 
 
