@@ -1,8 +1,9 @@
 
 *.jpg
-
 *.gif
+_junk/*
+
 images/bg/tile-day.png
 images/bg/tile.png
 scripts/styles.css
-[]ancient version/
+
