@@ -1,41 +1,29 @@
-number,name,hint,journal,requirements,Column 06,Column 07,Column 08,Column 09,Column 10,Column 11,Column 12,Column 13,Column 14,Column 15,Column 16,Column 17,Column 18,Column 19,Column 20
-1,,,,,,,,,,,,,,,,,,,
-2,,,,,,,,,,,,,,,,,,,
-3,,,,,,,,,,,,,,,,,,,
-4,,,,,,,,,,,,,,,,,,,
-5,,,,,,,,,,,,,,,,,,,
-6,,,,,,,,,,,,,,,,,,,
-7,,,,,,,,,,,,,,,,,,,
-8,,,,,,,,,,,,,,,,,,,
-9,,,,,,,,,,,,,,,,,,,
-10,,,,,,,,,,,,,,,,,,,
-11,,,,,,,,,,,,,,,,,,,
-12,,,,,,,,,,,,,,,,,,,
-13,,,,,,,,,,,,,,,,,,,
-14,,,,,,,,,,,,,,,,,,,
-15,,,,,,,,,,,,,,,,,,,
-16,,,,,,,,,,,,,,,,,,,
-17,,,,,,,,,,,,,,,,,,,
-18,,,,,,,,,,,,,,,,,,,
-19,,,,,,,,,,,,,,,,,,,
-20,,,,,,,,,,,,,,,,,,,
-21,,,,,,,,,,,,,,,,,,,
-22,,,,,,,,,,,,,,,,,,,
-23,,,,,,,,,,,,,,,,,,,
-24,,,,,,,,,,,,,,,,,,,
-25,,,,,,,,,,,,,,,,,,,
-26,,,,,,,,,,,,,,,,,,,
-27,,,,,,,,,,,,,,,,,,,
-28,,,,,,,,,,,,,,,,,,,
-29,,,,,,,,,,,,,,,,,,,
-30,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
+number,name,hint,journal,requirements
+1,Shotgun Wedding,Seek some sisters...,to be forced by that Smith guy to marry one of his daughters (or all of them lol),"SSTART!=""married""; Sdone_multiMom==0; Sdone_multiGirlLoved+Sdone_multiGirlRaped>=3; "
+10,Looking to the Future,...,to plan for next breeding season,none
+11,Unworthy,Fail.,to spend my evenings fapping to Japanese cartoons,"SSTART!=""virgin""; SpregScore<=0; "
+12,Mind Master,Mind control people to have your way. (evil),to figure out how to get these mind powers working for me,"SSTART!=""hypno""; ShypnoScore>4; "
+13,Real Motherfucker,"Treat a milf just right. Her daughters, on the other hand...",to find some milf & get her to cheat on her husband with me,Sdone_multiMom==2; Sdone_multiGirlRaped>1; 
+14,Milkman,Show the family a good time.,to impregnate a whole family,Sdone_multiMom==2; Sdone_multiGirlLoved>1; Sdone_multiGirlRaped<=0; 
+15,Emancipator,Free the slaves. (good),"to find out what that sex slave oparation was all about, & put a stop to it if I can",Sunlock_emancipatorEnding; 
+16,Superhero,Find a way to use rape as an instrument of justice. (good),"to see if I can fulfil my rapacious needs while at the same time channeling it to fulfil some sort of moral purpose (an absurd fantasy, I know)",SrapeScore>1; Sunlock_superheroEnding; 
+17,Caged Beast,Look for women in chains. (evil),to keep looking over my shoulder as people from that slave operation might try to track me down,Sunlock_labratEnding; SrapeScore>=9; $killScore>=1; Sdone_slaveGirls[0]+Sdone_slaveGirls[1]+Sdone_slaveGirls[2]+Sdone_slaveGirls[3]+Sdone_slaveGirls[4]+Sdone_slaveGirls[5]+Sdone_slaveGirls[6]>=4; 
+18,Wacked,Start at the brothel...,to pay that whore Cindy a visit,Sunlock_wackedEnding; Sdone_whoreGirls[0]>2; Sdone_whoreGirls[1]>2; Sdone_whoreGirls[2]>2; Sdone_whoreGirls[3]>2; 
+19,Dystopia,Fill them with hatespawn. (evil),to fill the whole world with my hatespawn,SpregScore>=21 & $loveScore<=3; 
+2,Wedding Bells,Have a wedding ring ready. (good),to propose to a woman I love,"not[""married"", ""familyman"", ""cop""].includes(SSTART); Shave_ring or SSTART==""special""; SwifeArray.length>0 or SSTART==""special""; SrapeScore < 2 or SSTART==""special""; "
+20,Utopia,Fill them with lovespawn. (good),to see if I can impregnate more women each successive breeding season,SpregScore>=21 & SrapeScore<=3; 
+21,Slavemaster,Have some experience with mind control & slaves (including slave ownership).,"to figure out how to train slaves,",ShypnoScore>=2; Shave_slave==true; Sdone_slaveGirls[0]+Sdone_slaveGirls[1]+Sdone_slaveGirls[2]+Sdone_slaveGirls[3]+Sdone_slaveGirls[4]+Sdone_slaveGirls[5]+Sdone_slaveGirls[6]>=4; 
+22,Ruler,Find your princess. (Must have 15+ endings unlocked.),"to find a way to see Falia again, & bang her a few more times",Squest_princess>=999; 
+23,Dirty Cop,Go for a walk in the park before you visit a crimescene. ,to see if I can make that cop Shauna any dirtier,Squest_dirtycop>=5 & Squest_dirtycop<99; 
+24,Video Nasty,They're watching you.,to be more careful about being caught on tape,ScameraArray.length>=4; 
+25,It's Over,Let this farce run its course.,to accept my inevitable fate,
+3,Arrested,Piss off the wrong lady. (evil),to be arrested,"Squest_dirtycop < 4; SSTART!=""criminal""; Sdone_parkGirl==1; "
+4,Married A Murderess,A killer attracts a killer. (evil),to get together with that murder lady,"SSTART!=""killer""; Sdone_jealousGirl== 2; $killScore>=2; "
+5,Compliant Breeding Bitch,"All she wants is to have your babies, she just doesn't know it yet.",to find some dumb slut who wants nothing more than pump out babies for me,"SSTART!=""breeder""; $loveArray.includes(""Lizzie (gangsta)""); SpregScore>=6"
+6,Empire of Depravity,Dabble in the sex trade & see where it leads you. (evil),to steal Zimmerman's business & run an empire of whores,Sdone_wifeGirl==2; 
+7,Pornstar,"Meet the right people, have enough money. (good)",to invest some money & start a porn business,"SSTART!=""porn""; Sdone_motelGirl==2; Sdone_collegeGirl==2; Smoney>1500; "
+8,Schooling Sluts,You like 'em young? (evil),to get a job as a teacher,"; set Snum = 0; Sdone_mailorderGirl==2; set Snum +=1; Sdone_babysitterGirl==2; set Snum +=1; Sdone_cinemaGirl==2; set Snum +=1; Sdone_romanceGirl==2; set Snum +=1; Sdone_alleyGirl==2; set Snum +=1; Sdone_multiGirlLoved>=1; set Snum+=Sdone_multiGirlLoved; SSTART!=""teacher""; Snum>=4; "
+9,Bad Stepdad,"A milf loses interest in her husband, show her you can be a good dad.",to marry some broad & bang her daughter like the guy from Lolita,"SSTART!=""married""; Sdone_multiMom==2; Sdone_multiGirlLoved<=1; Sdone_multiGirlRaped<=0; "
+X1,Sandy Prison,Look for Shell Beach.,---,---
+X2,Reborn,It's a trap.,I really think so,
+X3,Prometheus Bound,Bring your fists to a gun fight.,---,

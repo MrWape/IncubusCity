@@ -1,9 +1,12 @@
 
 *.jpg
 *.gif
-_junk/*
+*.png
+*.webm
+junk/*
+_unused/*
 
 images/bg/tile-day.png
 images/bg/tile.png
 scripts/styles.css
-
+desktop.ini

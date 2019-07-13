@@ -1,0 +1,12 @@
+﻿<columns units="px">
+  <column name="var" type="Text" />
+  <column name="name" type="Text" />
+  <column name="rank" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="buy" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="sell" type="Number" format="G" nulltext="-" alignment="Right" />
+  <column name="description" type="Text" allowwrap="true" usetexteditor="true" />
+  <column name="fence_sell" type="Text" allowwrap="true" />
+  <column name="fence_buy" type="Text" allowwrap="true" />
+  <column name="other1" type="Text" />
+  <column name="other2" type="Text" />
+</columns>
