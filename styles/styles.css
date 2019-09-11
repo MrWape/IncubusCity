@@ -467,13 +467,9 @@ popholder:hover .pop.wide,
 
 /* PASSAGES */
 
-.passage br:nth-child(1),
-.passage br:nth-child(2),
-.passage br:nth-child(3),
-.passage br:nth-last-child(1),
-.passage br:nth-last-child(2),
-.passage br:nth-last-child(3) {
- display: none;
+.passage>br:nth-child(1),
+.passage>br:nth-last-child(1) {
+ _display: none;
 }
 
 
@@ -1555,6 +1551,9 @@ input[type=text] {
 	min-width: none;
 	padding: .2em .4em;
 }
+
+
+/* table */
 
 #passages table {
 	border: 1px solid white;

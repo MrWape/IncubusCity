@@ -1,32 +1,32 @@
 id,num,name,description,type,hidden,requirements,journal
-cult,job,Cult Master,The patriarch of a polygamous cult. ,,,(Mind Master & Shotgun Wedding),impregnating some dumb sheep of my dumb flock
-breeder,F,Breeding Bitch,You aren't sure why she keeps coming back. But she does... ,,,(Compliant Breeding Bitch),"with Lisa, Lizzie, whatever her name is"
 bastard,son,Your Rapespawn,The next generation of evil. ,,,(Dystopia),on a quest to find my own mother
-slaver,CRs,Slave Maker,The minds of slaves are putty in your hand. ,,,(Slaver),training a slave
-slaveowner,CRs,Slave Owner,You are the proud owner of a brand new slave. ,,,(Emancipator),playing with my new toy
-monster,CRm,Beast Unleashed,They tried to cage and study you. It did not end well for them... ,,,(Caged Beast),"in that strange place, stripped of all humanity... I don't know how I got there, but I'm never going back"
-fishmonger,job,Brothel Owner,You run the best whorehouse in the city. ,,,(Wacked),disabling the birth control system at the brothel
-son,son,Your Offspring,The heir to the Incubus. ,,,(Utopia),with father's blessing
-married,F,Married,You are a happily married man. Mostly. ,,,(Any Marriage Ending),in bed with my wife $wife
-pimp,CR,Pimp,You are already acquainted with Waid.,,,(Empire of Depravity),keeping the pimp hand strong
-cop,CR,Dirtier Cop,A criminal married to the chief of police. ,,,(Dirty Cop),"celebrating with Shauna, as usual"
-superhero,CR,Vagilante,Battle evil and recruit a team of superheroines. ,,,(Superhero),on a quest to recruit allies to fight evil
-thief,CR,Thief,Includes lockpick.,,,(Arrested),criming it up
-teacher,job,Teacher,Start in bed with some schoolgirls. ,,,(Schooling Sluts),in bed with some of my students
-hypno,job,Psychologist,You have some experience in hypnosis.,,,(Mind Master),"with a patient of mine, and her mother"
-porn,job,Amateur Pornographer,Your specialty is college girls. ,,,(Pornstar),filming a porn with my friend's girl
-virgin,01,Virgin,You've saved up and prepared yourself mentally. ,,,(UNWORTHY),wallowing in my own shame
-killer,CR,Killer for Hire,You turn people into corpses for a living. ,,,(Married A Murderess),during an assassination mission
-familyman,F,Family Man,A father married to a divorcee. ,,,(All Smith Endings + Utopia + Mind Master),sinning against god and man
-normal,00,No Bonus,Begin the game normally.,dull,,,normally
-time,01,Longer Breeding Season,You have a bit more time.,dull,,(Looking to the Future),mentally preparing myself
-money,01,Extra Cash,You have a bit more money.,dull,,,with some extra money
-god,ZZ,God Emperor,Nothing can stop you now. ,gold,,(All Endings Unlocked),exactly how I did that very season millenia ago
-reincarnation,son,Reincarnated,You have been reincarnated as your own spawn.,new,,(Reborn),kissing the woman who gave birth to me goodbye and going to America
-slavetrader,CRs,Slave Trader,You manage a small slavery operation.,new,,"(Slaver, Wedding Bells: Lizzie, ???)",
-coma,CRm,Comatose,You don't want this one.,new,,(Sandy Prison),being rented by some pimp I've never met in waking life
+breeder,F,Breeding Bitch,You aren't sure why she keeps coming back. But she does... ,,,(Compliant Breeding Bitch),"with Lisa, Lizzie, whatever her name is"
 bullpit,CRm,Breeding Bull,You have been reduced to a single purpose.,new,true,(Caged Beast and Prometheus Undone),
-manager,job,E-Celeb's Manager,You make a living managing a hot young e-celeb.,new,,(Wedding Bells: Shinoa),mismanaging Shinoa
-special,ZZ,SPECIAL,For game testing only.,special,true,,somehow
 clinic,01,Prepared,You've put a lot of thought into breeding season.,special,,"(Looking to the Future, too many goddamn times)",perfectly
+coma,CRm,Comatose,You don't want this one.,new,,(Sandy Prison),being rented by some pimp I've never met in waking life
+cop,CR,Dirtier Cop,A criminal married to the chief of police. ,,,(Dirty Cop),"celebrating with Shauna, as usual"
+cult,job,Cult Master,The patriarch of a polygamous cult. ,,,(Mind Master & Shotgun Wedding),impregnating some dumb sheep of my dumb flock
+familyman,F,Family Man,A father married to a divorcee. ,,,(All Smith Endings + Utopia + Mind Master),sinning against god and man
+fishmonger,job,Brothel Owner,You run the best whorehouse in the city. ,,,(Wacked),disabling the birth control system at the brothel
+god,ZZ,God Emperor,Nothing can stop you now. ,gold,,(All Endings Unlocked),exactly how I did that very season millenia ago
+hypno,job,Psychologist,You have some experience in hypnosis.,,,(Mind Master),"with a patient of mine, and her mother"
+killer,CR,Killer for Hire,You turn people into corpses for a living. ,,,(Married A Murderess),during an assassination mission
+manager,job,E-Celeb's Manager,You make a living managing a hot young e-celeb.,new,,(Wedding Bells: Shinoa),mismanaging Shinoa
+married,F,Married,You are a happily married man. Mostly. ,,,(Any Marriage Ending),in bed with my wife $wife
+money,01,Extra Cash,You have a bit more money.,dull,,,with some extra money
+monster,CRm,Beast Unleashed,They tried to cage and study you. It did not end well for them... ,,,(Caged Beast),"in that strange place, stripped of all humanity... I don't know how I got there, but I'm never going back"
+normal,00,No Bonus,Begin the game normally.,dull,,,normally
+pimp,CR,Pimp,You are already acquainted with Waid.,,,(Empire of Depravity),keeping the pimp hand strong
+porn,job,Amateur Pornographer,Your specialty is college girls. ,,,(Pornstar),filming a porn with my friend's girl
 prince,ZZ,Prince,You are a pretender to the throne.,special,,(Ruler & 2 wives),determined to find more wives
+reincarnation,son,Reincarnated,You have been reincarnated as your own spawn.,new,,(Reborn),kissing the woman who gave birth to me goodbye and going to America
+slaveowner,CRs,Slave Owner,You are the proud owner of a brand new slave. ,,,(Emancipator),playing with my new toy
+slaver,CRs,Slave Maker,The minds of slaves are putty in your hand. ,,,(Slaver),training a slave
+slavetrader,CRs,Slave Trader,You manage a small slavery operation.,new,,"(Slaver, Wedding Bells: Lizzie, ???)",
+son,son,Your Offspring,The heir to the Incubus. ,,,(Utopia),with father's blessing
+special,ZZ,SPECIAL,For game testing only.,special,true,,somehow
+superhero,CR,Vagilante,Battle evil and recruit a team of superheroines. ,,,(Superhero),on a quest to recruit allies to fight evil
+teacher,job,Teacher,Start in bed with some schoolgirls. ,,,(Schooling Sluts),in bed with some of my students
+thief,CR,Thief,Includes lockpick.,,,(Arrested),criming it up
+time,01,Longer Breeding Season,You have a bit more time.,dull,,(Looking to the Future),mentally preparing myself
+virgin,01,Virgin,You've saved up and prepared yourself mentally. ,,,(UNWORTHY),wallowing in my own shame

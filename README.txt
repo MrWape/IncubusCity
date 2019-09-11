@@ -51,6 +51,41 @@ above email or post on the F95zone thread for the game.
 Version History
 ===================
 
+NEXT VERSION
+-------------------
+
+1.8.8
+-------------------
+- gooey token fixed
+- Teacher/Zimmerman path concludes properly
+- impregnating your mom doesn't count as 8 pregs
+- stamina bar
+- new options for Darlene, Jean
+- miscellaneous bug fixes
+
+1.8.7
+-------------------
+- Crime Machine now reverses time use in scenarios that have time limits
+- normal start now clears start variable
+- experience navigating crimescenes will benefit the player
+- added dungeon map
+- added some content and lore that you probably won't notice
+- fixed babysitter images for Incubus City Plus mod
+- miscellaneous bug fixes
+
+1.8.6
+-------------------
+- Pain Amulet now negates 'goodrape' possibility (store or sell it if you want to goodrape)
+- fixed coding issue with R widget
+- miscellaneous fixes and adjustments
+
+1.8.5
+-------------------
+- fixed erroneous rejection links in brothel
+- fixed inescapable dead end in brothel offices
+- altered a script to better ensure compatibility with older browsers
+- various fixes and changes
+
 1.8.4
 -------------------
 - fixed bug where brothel whore interactions all yielded the same result
